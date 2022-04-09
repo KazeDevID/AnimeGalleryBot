@@ -9,7 +9,7 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://tenor.com/view/chika-fujiwara-kaguya-sama-love-is-war-anime-wink-smile-gif-18043249'
+            file='https://i.ibb.co/4gq26Bk/images-5.jpg'
         )
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AnimeGallery_ByKazeBot"))
